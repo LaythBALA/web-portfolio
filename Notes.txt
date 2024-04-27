@@ -1,0 +1,15 @@
+WEB PORTFOLIO TO DO LIST
+
+MAIN PAGE
+ - Profile Picture
+
+ABOUT
+ - Find a Picture
+ - Change About summary
+
+PROJECTS
+ - Pokemon Game
+ - To Do List
+ - Find a third project
+ - Add HTML pages for "Learn More"
+ - Connect to GitHub
