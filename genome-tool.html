@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genome Tool - Layth Alhakim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav id="desktop-nav">
+        <div class="logo">Layth Alhakim</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li>
+                    <!-- Theme toggle icon -->
+                    <img
+                        id="modeToggle"
+                        class="icon colour-icon"
+                        src="./assets/theme_light.png" 
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt ="Colour theme icon">
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Layth Alhakim</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+                <li>
+                    <!-- Theme toggle icon -->
+                    <img
+                        id="modeToggle2"
+                        class="icon colour-icon"
+                        src="./assets/theme_light.png" 
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt ="Colour theme icon">
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Genome Tool section -->
+    <section id="genome-tool">
+        <div class="section__text">
+            <h1 class="title">Genome Tool</h1>
+            <p class="section__text__genome">
+                The Genome Tool was a pivotal project for me—it was both a personal passion and the culmination of both my Computing MSc and Medical Genetics BSc. It was my chance to put all my learning into action and create something meaningful. Through this project, I aimed to apply what I knew while also embracing the opportunity to learn even more.
+            </p>
+            <p class="section__text__genome">
+                The Genome Tool was designed and developed as a web-based visualization tool that enabled researchers and users to explore, annotate, and analyze genetic data effectively. The tool focused on creating an intuitive and user-friendly interface, allowing users to visualize and interpret genomic regions of interest. Additionally, it included integrated functional information from external databases to provide functional analysis capabilities within the tool itself. By developing this web-based genome browser and annotation tool, the project aimed to provide researchers with an accessible platform to contribute to advancing genomic research through efficient exploration, interpretation, and collaboration among researchers in various fields. This study pursued an in-depth analysis of combining the complexity of genomic data with usability and accessibility, considering the programming languages utilized, developmental methodologies, and scalability of the web tool to advance computing and genomics research.
+            </p>
+            <p class="section__text__genome">
+                Below you can find the GitHub link to take a closer look at the code as well as the full dissertation!
+            </p>
+            <div class="genome-btn-container">
+                <button class="btn btn-color-1" onclick="location.href='https://github.com/LaythBALA/GenomeTool'">GitHub</button>
+                <button class="btn btn-color-2" onclick="location.href='./assets/full_report.pdf'">Full Version</button>
+                <button class="btn btn-color-2" onclick="location.href='index.html#projects'">Projects</button>
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript file for theme toggle -->
+    <script src="script.js"></script>
+</body>
+</html>

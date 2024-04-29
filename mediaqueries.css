@@ -7,6 +7,7 @@
         flex-wrap: wrap;
     }
 
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -37,6 +38,13 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .genome-btn-container, 
+    .pokedex-btn-container,
+    .todo-btn-container {
+        padding-bottom: 2vh;
+    }
+
 }
 }
 
@@ -92,5 +100,14 @@
     .text-container {
         text-align: justify;
     }
-}
 
+    .section__text__p3 {
+    color: var(--secondary-colour-2);
+    margin-bottom: 8vh;
+    padding-top: 2vh;
+    }
+
+    .project-btn-container {
+        padding-bottom: 2vh;
+    }
+}

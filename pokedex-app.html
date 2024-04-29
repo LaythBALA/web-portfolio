@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Layth Alhakim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav id="desktop-nav">
+        <div class="logo">Layth Alhakim</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li>
+                    <!-- Theme toggle icon -->
+                    <img
+                        id="modeToggle"
+                        class="icon colour-icon"
+                        src="./assets/theme_light.png" 
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt ="Colour theme icon">
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Layth Alhakim</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+                <li>
+                    <!-- Theme toggle icon -->
+                    <img
+                        id="modeToggle2"
+                        class="icon colour-icon"
+                        src="./assets/theme_light.png" 
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt ="Colour theme icon">
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Pokedex List section -->
+    <section id="pokedex-app">
+        <div class="section__text">
+            <h1 class="title">Pokédex</h1>
+            <p class="section__text__pokedex">
+                Pokémon is a fundamental part of my childhood that has stuck with me till the present - I have always enjoyed and loved the concept, world-building, and of course, the Pokémon themselves. My passion and interest in Pokémon introduced me to several hobbies, including gaming and in turn programming.
+            </p>
+            <p class="section__text__pokedex">
+                I decided to create a fun Pokédex web application that utilises the PokéAPI for data and displays it in an appealing UI design. The result? A captivating Pokédex web application that seamlessly integrates with the renowned PokéAPI to deliver a comprehensive exploration of the Pokémon world. This dynamic application offers users an interactive and visually appealing interface to delve into. Driven by a commitment to excellence and a deep-rooted love for Pokémon, I designed the app to delight users. With an intuitive user experience and striking visual elements, the Pokédex web application transforms data into a journey of nostalgia.
+            </p>
+            <p class="section__text__pokedex">
+                Feel free to look at the code and try it for yourself by clicking on GitHub below!
+            </p>
+            <div class="pokedex-btn-container">
+                <button class="btn btn-color-1" onclick="location.href='https://github.com/LaythBALA/pokedex-app'">GitHub</button>
+                <button class="btn btn-color-2" onclick="location.href='index.html#projects'">Projects</button>
+            </div>
+        </div>
+    </section>
+    <!-- JavaScript file for theme toggle -->
+    <script src="script.js"></script>
+</body>
+</html>
